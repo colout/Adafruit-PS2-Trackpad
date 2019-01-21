@@ -23,6 +23,8 @@
 #define ADAFRUIT_PS2_SETSCALE21 0xE7 // no arguments
 #define ADAFRUIT_PS2_GETINFO 0xE9  // receives 3 arg. bytes
 
+#define _BV(b) (1UL << (b)) // bit shift
+
 #if ARDUINO >= 100
  #include "Arduino.h"
 #else
